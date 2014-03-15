@@ -1,0 +1,72 @@
+@import url(http://fonts.googleapis.com/css?family=Marmelad&subset=latin,cyrillic,latin-ext);
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Marmelad', sans-serif;
+	font-size: 14px;
+}
+
+.jQuerySlider {
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+
+.jQuerySlider #main-wrapper .navBtn {
+	color: white;
+	font-size: 30px;
+	position: absolute;
+	top: 237px;
+	width: 40px;
+	height: 47px;
+	padding: 3px 0 0 10px;
+	background: rgba(100, 100, 100, .5);
+	cursor: pointer;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.jQuerySlider #main-wrapper .navBtn:hover {
+	background: rgba(100, 100, 100, .7);
+}
+
+.jQuerySlider #main-wrapper .navBtn.left {
+	left: 0;
+}
+
+.jQuerySlider #main-wrapper .navBtn.right {
+	right: 0;
+}
+
+.jQuerySlider #wrapper .page {
+	float: left;
+	height: 500px;
+	width: 960px;
+}
+
+.jQuerySlider #wrapper .page img {
+	width: 960px;
+	height: auto;
+}
+
+.jQuerySlider #wrapper .page .link, .jQuerySlider #wrapper .page .link a {
+	color: #5286F7;
+	font-size: 16px;
+	text-decoration: none;
+	text-align: center;
+	margin-bottom: 3px;
+}
+
+.jQuerySlider #wrapper .page .desc {
+	text-align: center;
+	margin-bottom: 7px;	
+}
